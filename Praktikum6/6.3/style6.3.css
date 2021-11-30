@@ -1,0 +1,70 @@
+body {
+    background-color: lightpink;
+    padding: 20px;
+}
+
+header {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 120px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    gap: 30px;
+}
+
+aside {
+    width: 30%;
+    height: 500px;
+    background-color: deepskyblue;
+}
+
+#Aside {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+}
+
+article {
+    width: 70%;
+    height: 500px;
+    background-color: lightcoral;
+}
+
+#judul {
+    font-size: 50px;
+    color: white;
+    position: relative;
+    left: 42%;
+    top: 27%;
+}
+
+.gambar {
+    display: flex;
+    gap: 3%;
+    position: absolute;
+    left: 42%;
+    top: 57%;
+}
+
+img {
+    width: 25%;
+    height: 200px;
+    border: 2px white solid;
+}
+
+footer {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 120px;
+    margin-top: 30px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
